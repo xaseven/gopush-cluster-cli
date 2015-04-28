@@ -30,12 +30,14 @@ $ ./gopush-client clicmd gn -h
 # Example
 ##客户端获取订阅节点
 ```sh
-$./gopush-client clicmd gn -key seven -p 2 //获取节点，URL为代码中的URL key：seven 协议：2（Tcp）
+//获取节点，URL为代码中的URL key：seven 协议：2（Tcp）
+$./gopush-client clicmd gn -key seven -p 2 
 $./gopush-client clicmd gn -url http://192.168.2.168:8090/1/server/get -key seven -p 2
 ```
 ##客户端获取离线消息
 ```sh
-$./gopush-client clicmd gom -key seven -mid 1 //URL为代码中的URL key：seven 最新接收的私有消息ID：1
+//URL为代码中的URL key：seven 最新接收的私有消息ID：1
+$./gopush-client clicmd gom -key seven -mid 1 
 $./gopush-client clicmd gom -url http://192.168.2.168:8090/1/msg/get -key seven -mid 1
 ```
 ##客户端获取初始化消息ID
