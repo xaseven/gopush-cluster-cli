@@ -33,7 +33,7 @@ $./gopush-client clicmd gom -key seven -mid 1 //URL为代码中的URL key：seve
 $./gopush-client clicmd gom -url http://192.168.2.168:8090/1/msg/get -key seven -mid 1
 
 ##客户端获取初始化消息ID
-$./gopush-client clicmd gmi 
+$./gopush-client clicmd gmi  
 $./gopush-client clicmd gmi -url http://192.168.2.168:8090/1/time/get
 
 ##管理员推送单个信息
